@@ -1,0 +1,1670 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flo",
+				"float32	built-in ʈ"
+			],
+			[
+				"Ob",
+				"objects	[]*Object ν"
+			],
+			[
+				"b",
+				"Body	struct ʈ"
+			],
+			[
+				"setA",
+				"SetAngularVelocity	 ƒ"
+			],
+			[
+				"sh",
+				"Shape	*chipmunk.Shape ν"
+			],
+			[
+				"av",
+				"avel2	float32 ν"
+			],
+			[
+				"ang",
+				"AngularVelocity	float32 ƒ"
+			],
+			[
+				"set",
+				"SetFriction	 ƒ"
+			],
+			[
+				"Mu",
+				"Mul4	glm.Mat4 ƒ"
+			],
+			[
+				"a",
+				"Add	glm.Mat4 ƒ"
+			],
+			[
+				"m",
+				"Mat4	glm.Mat4 ƒ"
+			],
+			[
+				"Sh",
+				"Shape	*chipmunk.Shape ν"
+			],
+			[
+				"M",
+				"Mul4	glm.Mat4 ƒ"
+			],
+			[
+				"Ho",
+				"HomogRotate3DZ	glm.Mat4 ƒ"
+			],
+			[
+				"mu",
+				"Mul4	glm.Mat4 ƒ"
+			],
+			[
+				"tra",
+				"Translate3D	glm.Mat4 ƒ"
+			],
+			[
+				"gl",
+				"glm	 package ρ"
+			],
+			[
+				"Ve",
+				"Vec3	struct ʈ"
+			],
+			[
+				"se",
+				"SetPosition	 ƒ"
+			],
+			[
+				"Se",
+				"SetPosition	 ƒ"
+			],
+			[
+				"New",
+				"NewMesh	*env.Object ƒ"
+			],
+			[
+				"p",
+				"SetPosition	 ƒ"
+			],
+			[
+				"s",
+				"Shape	*chipmunk.Shape ν"
+			],
+			[
+				"P",
+				"Phys	struct ʈ"
+			],
+			[
+				"Coint",
+				"NewConstraint	chipmunk.BasicConstraint ƒ"
+			],
+			[
+				"add",
+				"AddConstraint	chipmunk.Constraint ƒ"
+			],
+			[
+				"NewB",
+				"NewBox	*chipmunk.Shape ƒ"
+			],
+			[
+				"S",
+				"Shape	*chipmunk.Shape ν"
+			],
+			[
+				"c",
+				"MainCam	lux.Camera ν"
+			],
+			[
+				"getC",
+				"GetCursorPos	x float64, y float64 ƒ"
+			],
+			[
+				"floa",
+				"float64	built-in ʈ"
+			],
+			[
+				"objec",
+				"object	*Object ν"
+			],
+			[
+				"Ca",
+				"Callback	func(dt float64) ν"
+			],
+			[
+				"fo",
+				"found	bool ν"
+			],
+			[
+				"chec",
+				"CheckAgainstHalfSpace	bool, []*cubez.Contact ƒ"
+			],
+			[
+				"ve",
+				"Vec3	[3]float32 ʈ"
+			],
+			[
+				"fil",
+				"FileInfo	interface ¡"
+			],
+			[
+				"st",
+				"String	*string ƒ"
+			],
+			[
+				"r",
+				"ReadAt	n int, err error ƒ"
+			],
+			[
+				"file",
+				"filename	int ν"
+			],
+			[
+				"sch",
+				"schemefile	string ν"
+			],
+			[
+				"A",
+				"Arg	string ƒ"
+			],
+			[
+				"Sp",
+				"Sprintf	string ƒ"
+			],
+			[
+				"F",
+				"Files	[]InFiles ν"
+			],
+			[
+				"sc",
+				"scheme	struct ʈ"
+			],
+			[
+				"re",
+				"Read	n int, err error ƒ"
+			],
+			[
+				"Owr",
+				"O_RDWR	 Ɩ"
+			],
+			[
+				"fi",
+				"filetoinfo	os.FileInfo ν"
+			],
+			[
+				"err",
+				"errors	 package ρ"
+			],
+			[
+				"int",
+				"Int63n	int64 ƒ"
+			],
+			[
+				"Int",
+				"Int64	*int64 ƒ"
+			],
+			[
+				"File",
+				"FileInfo	interface ¡"
+			],
+			[
+				"n",
+				"Now	time.Time ƒ"
+			],
+			[
+				"rea",
+				"ReadFile	[]byte, error ƒ"
+			],
+			[
+				"tail",
+				"tailsize	int64 ν"
+			],
+			[
+				"rd",
+				"O_RDWR	 Ɩ"
+			],
+			[
+				"fle",
+				"fileto	*os.File ν"
+			],
+			[
+				"Ar",
+				"Args	[]string ƒ"
+			],
+			[
+				"Op",
+				"Open	*os.File, error ƒ"
+			],
+			[
+				"dial",
+				"dialModules"
+			],
+			[
+				"key",
+				"keyval	string ν"
+			],
+			[
+				"in",
+				"intfs"
+			],
+			[
+				"ls",
+				"lsusb"
+			],
+			[
+				"CHAIN",
+				"CHAINRESTORE"
+			],
+			[
+				"bo",
+				"bodyWriter	*multipart.Writer ν"
+			],
+			[
+				"Re",
+				"Remove	error ƒ"
+			],
+			[
+				"Readb",
+				"ReadBytes	line []byte, err error ƒ"
+			],
+			[
+				"Read",
+				"ReadString	line string, err error ƒ"
+			],
+			[
+				"Ord",
+				"O_RDWR	 Ɩ"
+			],
+			[
+				"W",
+				"WriteAt	n int, err error ƒ"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"Ope",
+				"OpenFile	*os.File, error ƒ"
+			],
+			[
+				"pid",
+				"pidfile"
+			],
+			[
+				"pi",
+				"pidfile"
+			],
+			[
+				"pre",
+				"pre-wrap"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"Mode",
+				"Modems	struct ʈ"
+			],
+			[
+				"Mo",
+				"Modems	struct ʈ"
+			],
+			[
+				"Split",
+				"Split	[]string ƒ"
+			],
+			[
+				"tt",
+				"ttyUSB"
+			],
+			[
+				"getEle",
+				"getElementsByTagName(name)	Element"
+			],
+			[
+				"poi",
+				"position"
+			],
+			[
+				"usb",
+				"usbnum"
+			],
+			[
+				"aut",
+				"autoroute	local/autoroute.v2"
+			],
+			[
+				"getele",
+				"getElementById(id)	Element"
+			],
+			[
+				"Repl",
+				"ReplaceAllString	string ƒ"
+			],
+			[
+				"VP",
+				"OpenVPNs	[]*VPN ν"
+			],
+			[
+				"Lo",
+				"Log	bytes.Buffer ν"
+			],
+			[
+				"SSH",
+				"SSHChains	[]*Chain ν"
+			],
+			[
+				"N",
+				"Nodes	[]*SSH ν"
+			],
+			[
+				"pare",
+				"parentElement	Node"
+			],
+			[
+				"Std",
+				"Stdout	io.Writer ν"
+			],
+			[
+				"C",
+				"Cmd	*exec.Cmd ν"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"SS",
+				"SSHChains	[]*ssh.Chain ν"
+			],
+			[
+				"ssh",
+				"sshChainServer	*Server ν"
+			],
+			[
+				"Pr",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"Ssh",
+				"SSHChainWait	 ƒ"
+			],
+			[
+				"Ss",
+				"SSHChainRun	error ƒ"
+			],
+			[
+				"Red",
+				"RedSocksWait	 ƒ"
+			],
+			[
+				"Log",
+				"LogSSHChain	bytes.Buffer ν"
+			],
+			[
+				"Cmd",
+				"CmdSSHChain	*exec.Cmd ν"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"lo",
+				"LogRedSocks	bytes.Buffer ν"
+			],
+			[
+				"Stde",
+				"Stderr	io.Writer ν"
+			],
+			[
+				"ch",
+				"CmdSSHChain	*exec.Cmd ν"
+			],
+			[
+				"Process",
+				"Process	*os.Process ν"
+			],
+			[
+				"l",
+				"launched	bool ƒ"
+			],
+			[
+				"remo",
+				"RemoveAll	error ƒ"
+			],
+			[
+				"B",
+				"Bytes	[]byte ƒ"
+			],
+			[
+				"mi",
+				"Millisecond	 Ɩ"
+			],
+			[
+				"read",
+				"ReadCloser	interface ¡"
+			],
+			[
+				"res",
+				"response	[]byte ν"
+			],
+			[
+				"i",
+				"IP	string ν"
+			],
+			[
+				"Ma",
+				"MatchString	bool ƒ"
+			],
+			[
+				"getAtt",
+				"getAttribute(attributeName)	Element"
+			],
+			[
+				"Ine",
+				"innerHTML	Element"
+			],
+			[
+				"D",
+				"Device	struct ʈ"
+			],
+			[
+				"In",
+				"Interface	i interface{} ƒ"
+			],
+			[
+				"Va",
+				"ValueOf	reflect.Value ƒ"
+			],
+			[
+				"Fie",
+				"FieldByName	reflect.Value ƒ"
+			],
+			[
+				"Value",
+				"ValueOf	reflect.Value ƒ"
+			],
+			[
+				"Tp",
+				"TypeOf	reflect.Type ƒ"
+			],
+			[
+				"Fi",
+				"FieldByName	reflect.StructField, bool ƒ"
+			],
+			[
+				"vpn",
+				"vpnServer	*Server ν"
+			],
+			[
+				"K",
+				"Kind	reflect.Kind ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "vendor/lux-concept/player.go",
+			"settings":
+			{
+				"buffer_size": 1738,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/lux-concept/main.go",
+			"settings":
+			{
+				"buffer_size": 1244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/lux-concept/math.go",
+			"settings":
+			{
+				"buffer_size": 655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/env/objects.go",
+			"settings":
+			{
+				"buffer_size": 2978,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/env/init.go",
+			"settings":
+			{
+				"buffer_size": 303,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/env/window.go",
+			"settings":
+			{
+				"buffer_size": 2595,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "package env\n\nimport (\n	\"github.com/luxengine/lux\"\n	\"github.com/sg3des/tornago\"\n)\n\nvar (\n	w  *tornago.World\n	am *lux.AgentManager\n)\n\nfunc initPhysics() {\n	w = tornago.NewWorld(&tornago.NaiveBroadphase{}, tornago.ContactResolver{})\n	am = lux.NewAgentManager()\n}\n",
+			"file": "vendor/env/physics.go",
+			"file_size": 260,
+			"file_write_time": 131097997981156628,
+			"settings":
+			{
+				"buffer_size": 260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 242,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/env/cameras.go",
+			"settings":
+			{
+				"buffer_size": 275,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/turtle/Projects/go/src/github.com/luxengine/lux/transform.go",
+			"settings":
+			{
+				"buffer_size": 2144,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/env/phys.go",
+			"settings":
+			{
+				"buffer_size": 2187,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/turtle/Projects/go/src/github.com/luxengine/lux/models.go",
+			"settings":
+			{
+				"buffer_size": 4289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/env/lights.go",
+			"settings":
+			{
+				"buffer_size": 958,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 420.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"jsl",
+				"JSLint"
+			],
+			[
+				"lint ",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lint",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"linter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"lint th",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: di",
+				"Package Control: Disable Package"
+			],
+			[
+				"show",
+				"SublimeLinter: Don’t Show Errors on Save"
+			],
+			[
+				"gosublime",
+				"GoSublime: Show errors"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			]
+		],
+		"width": 497.0
+	},
+	"console":
+	{
+		"height": 201.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"cls",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/env",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/lux-concept"
+	],
+	"file_history":
+	[
+		"/home/turtle/Projects/go/src/github.com/sg3des/phasarv/vendor/main/main.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/assets/models/cube2.obj",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/assets/models/trapeze.obj",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/lux-concept/math.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/phasarv/vendor/engine/entity2.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/phasarv/vendor/engine/entity.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/assets/models/cube.obj",
+		"/home/turtle/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/turtle/Projects/go/src/github.com/sg3des/phasarv/vendor/engine/phys.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/phasarv/vendor/main/math.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/env/physics.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/lux-concept/player.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/Makefile",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/env/cameras.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/env/objects.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/env/init.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/env/window.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/env/lights.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/lux-concept/main.go",
+		"/home/turtle/Projects/go/src/github.com/tbogdala/fizzle/examples/build.sh",
+		"/home/turtle/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+		"/home/turtle/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/home/turtle/.config/sublime-text-3/Packages/User/goinstall.py",
+		"/home/turtle/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/music/video.mp4",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/music/smeshriki.flv",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/music/output.avi",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/data.txt_160405_161358.scm",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/data2.txt",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/restored",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/music/w (copy 1).txt",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/data.txt",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/music/w (copy 2) (copy 1) (copy 1) (copy 1).txt",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/music/w (copy 2) (copy 1) (copy 1).jpg",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/music/160318-143453.txt",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/music/160318-143453.png",
+		"/home/turtle/Projects/go/src/local/conceal/testdata/pushkin.mp3",
+		"/home/turtle/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/getmodems",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/pppDetectModem",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/pppBusDial",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/ppp",
+		"/home/turtle/Projects/go/src/local/router/scripts/ppp",
+		"/home/turtle/Projects/go/src/local/router/scripts/getmodems",
+		"/home/turtle/Projects/go/src/local/router/scripts/ifprep",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/pppActivate",
+		"/home/turtle/Projects/go/src/local/router/scripts/getdevices",
+		"/home/turtle/Projects/go/src/local/router/scripts/vpnkill",
+		"/home/turtle/Projects/go/src/local/router/scripts/sshRuleDel",
+		"/home/turtle/Projects/go/src/local/router/scripts/sshRuleAdd",
+		"/home/turtle/Projects/go/src/local/router/scripts/devRuleDel",
+		"/home/turtle/Projects/go/src/local/router/scripts/devRuleAdd",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/pppAuto",
+		"/home/turtle/Projects/go/src/local/router/updater/router/scripts/getmodems",
+		"/home/turtle/Projects/go/src/local/router/testdata/ssh/access.list",
+		"/home/turtle/Projects/go/src/local/router/updater/chain.txt",
+		"/home/turtle/Projects/go/src/local/router/updater/order (copy 1).txt",
+		"/home/turtle/Projects/go/src/local/router/updater/order.txt",
+		"/home/turtle/Projects/go/src/local/router/testdata/ssh/access (copy 1).list",
+		"/home/turtle/Projects/go/src/local/router/testdata/ssh/sshupload.list",
+		"/home/turtle/Projects/asus openvpn/2015-05-21/initrc",
+		"/home/turtle/Projects/asus openvpn/2015-05-21/init.d/modem.d",
+		"/home/turtle/Projects/asus openvpn/2015-05-21/init.d/ppp_connect.d",
+		"/home/turtle/Projects/go/src/local/router/config.sh",
+		"/home/turtle/Projects/go/src/local/router/scripts/pppkill",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/config.sh",
+		"/home/turtle/Projects/go/src/local/router/jffs/getcardinfo.gcom",
+		"/home/turtle/Projects/asus openvpn/2015-05-21/bin/ncm",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/devRuleDel",
+		"/home/turtle/Projects/go/src/local/router/scripts/redsocksdel",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/sshRuleDel",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/sshRuleAdd",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/vpnup",
+		"/home/turtle/Projects/http/access/entry.php",
+		"/home/turtle/Projects/asus openvpn/2015-05-21/bin/ppp",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/ifview",
+		"/home/turtle/Projects/go/src/local/router/jffs/test",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/ifprep",
+		"/home/turtle/Projects/go/src/local/router/scripts/ifview",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/getvpnconfigs",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/vpnmanager",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/templates/ppp.gtm",
+		"/home/turtle/Projects/go/src/local/router/scripts/vpnmanager",
+		"/home/turtle/Projects/go/src/local/router/scripts/vpnprocess",
+		"/home/turtle/Projects/go/src/local/router/scripts/ifdel",
+		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/ppp (copy 1)",
+		"/home/turtle/Projects/go/src/local/router/scripts/vpnup",
+		"/home/turtle/Projects/go/src/local/router/scripts/ncm",
+		"/home/turtle/Projects/go/src/local/router/scripts/dns",
+		"/home/turtle/Projects/go/src/local/router/scripts/getactivevpn",
+		"/home/turtle/Projects/go/src/local/router/scripts/redsocks",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/templates/ssh.go",
+		"/home/turtle/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/turtle/Projects/go/src/local/router/testdata/iptables.sh",
+		"/var/log/journal/2aa84cd086594c4581df256fdab8e402/user-1000.journal",
+		"/home/turtle/Projects/C/redsocks/main.c",
+		"/home/turtle/Projects/C/redsocks/log.h",
+		"/home/turtle/Projects/C/redsocks/log.c",
+		"/home/turtle/.config/bspwm/sxhkdrc",
+		"/home/turtle/.config/bspwm/bspwmrc",
+		"/home/turtle/Projects/go/src/local/router/sshchain/conf/TEST.red",
+		"/home/turtle/.config/bspwm/stalonetrayrc",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/models/ssh/sshrule.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/controllers/sshchain_test.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/models/ssh/sshchain_test.go",
+		"/home/turtle/Projects/go/src/local/ssh-utils/sshcheck/Makefile",
+		"/home/turtle/Projects/go/src/local/test/ref/ref.go",
+		"/run/media/turtle/6F0483335C20403F/Projects/go/autoroute.v2/autoroute.go",
+		"/run/media/turtle/6F0483335C20403F/Projects/go/autoroute.v2/jsonreq/jsonreq.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/templates/vpn.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/templates/index.go",
+		"/home/turtle/Projects/go/src/local/autoroute.v2/jsonreq/jsonreq.go",
+		"/home/turtle/Projects/go/src/local/autoroute.v2/autoroute.go",
+		"/home/turtle/Projects/go/src/local/autoroute.v2/example/controllers/controller_test.go",
+		"/home/turtle/Projects/go/src/local/autoroute.v2/example/controllers/urls.go",
+		"/home/turtle/Projects/go/src/local/autoroute.v2/example/controllers/index.go",
+		"/home/turtle/Projects/go/src/local/autoroute.v2/example/controllers/controller.go",
+		"/home/turtle/Projects/go/src/local/autoroute.v2/example/http.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/controllers/server_init.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/controllers/ssh_test.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/models/ssh/sshchain.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/models/device.m/device.m.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/controllers/vpn_test.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/controllers/device_test.go",
+		"/home/turtle/Projects/go/src/local/router/vendor/router/models/device.m/device.m_test.go",
+		"/home/turtle/.config/sublime-text-3/Packages/User/linter.py",
+		"/home/turtle/Projects/go/src/local/router/vendor/src/router/templates/index.gtm",
+		"/home/turtle/Projects/go/src/local/router/vendor/src/router/templates/ssh.gtm"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"//",
+			"):\n",
+			"Mesh",
+			"object(?!s)",
+			"OpenVpn",
+			"OpenV",
+			"0010",
+			"ff.?d9",
+			"ff.d9",
+			"ffd9",
+			"d9",
+			"ff d9",
+			"data",
+			"demand",
+			">\n",
+			"Clear",
+			"Redraw",
+			"}\n",
+			"DrawLine",
+			"Redraw",
+			"10",
+			"intf",
+			"important",
+			"IP",
+			"\\$table",
+			"inherit",
+			"status",
+			"2a2",
+			"\\.reset\\(\\\"\\\"\\)",
+			"wait",
+			".+",
+			"LocalPort",
+			"Intf",
+			"VPN",
+			"Kill",
+			"c.IP",
+			"SSH",
+			"VPN",
+			"vpn",
+			"WriteString",
+			"intf",
+			"Intf",
+			"Pid",
+			"function (.+?)\\(",
+			"self",
+			"RedrawLinks",
+			"get",
+			"SSHList",
+			"\\.\\./fonts/",
+			"WD",
+			"abspath",
+			"WD",
+			"\"color_scheme\": .*",
+			"pointLink",
+			"\"code/",
+			"\"code/controllers",
+			"Projects",
+			"local/router/code",
+			"59b",
+			"#controls",
+			"#path-container",
+			"fmt",
+			"root# ",
+			"injected",
+			"post_wrap",
+			"max-wi",
+			"setZoom\\(.*?\\);",
+			"zoom",
+			"setLabelByName",
+			"setFavicon",
+			"setzoom",
+			"		// html.addEventListener(\"keypress\", function (e) {\n		// 	console.log(e);\n		// });",
+			"console.log\\(",
+			"console.log(",
+			"context",
+			"popupConfirmBoxList",
+			"oneTimeUserAgentTable",
+			",\\n",
+			"$",
+			" ",
+			"$",
+			"\\t",
+			" $",
+			"(^.+?\\t.+? )(\\t.*?$)",
+			" (",
+			"asd",
+			"Demo",
+			"COPY_RES",
+			"LIGHTMAP",
+			"border-width: 1px",
+			"/\\*.*\\*/",
+			"\\{\\n\\}",
+			"sidebar",
+			"\\n\\t+$",
+			".*?\\{\\n*\\}",
+			"\\n+",
+			"padding-",
+			"border-style: none;",
+			"border-width: 0;",
+			"border-radius",
+			"border-color:.*?;",
+			"padding: [1-9]",
+			"margin: [1-9]",
+			"tree",
+			"padding:",
+			"sidebar",
+			"window",
+			"button",
+			"border-radius: 0;",
+			"background-image: none;",
+			"button",
+			"(?s)box-shadow:.*?;",
+			"border-color: .*?;",
+			" border-style:",
+			"\\{background-image: none;",
+			" background-image: none;",
+			"\\{border-style:.*?;",
+			" border-style:.*?;",
+			"border-style:.*?;",
+			"border-radius: *[1-9]",
+			"\\n+",
+			"/\\*.*\\*/",
+			"\\/.*$",
+			".*\\{\\n?\\}",
+			"(?s)box-shadow:.*?;",
+			"box-shadow: ",
+			"border-width: 1px;",
+			"border-width"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"/1/",
+			"Object",
+			"TEST",
+			".Kill()",
+			"chain",
+			"ip",
+			"this.$1 = function(",
+			"main",
+			"/fonts/",
+			"",
+			"\"",
+			"\"controllers",
+			"router",
+			"38b",
+			"",
+			"setZoom(0.8);",
+			",",
+			":",
+			" \"",
+			"\"",
+			"",
+			"$1",
+			"",
+			"{}",
+			"",
+			"\\n",
+			"",
+			"{",
+			"",
+			"{",
+			"",
+			"\\n",
+			"",
+			"\\n/",
+			"{\\n\\t-",
+			"\\n\\t-",
+			"\\n-",
+			"",
+			"{",
+			", ",
+			"{",
+			"; ",
+			";",
+			"",
+			"\\n",
+			";\\n",
+			"",
+			"\\t",
+			"}\\n",
+			"",
+			"border-width: 1px;",
+			"",
+			"radius: 0;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "vendor/lux-concept/player.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326293.9,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "vendor/lux-concept/main.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326323.82,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_moving":
+							[
+								2,
+								0
+							],
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "vendor/lux-concept/math.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326324.56,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "vendor/env/objects.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326328.6,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "vendor/env/init.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326329.92,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "vendor/env/window.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1443,
+								1443
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326330.9,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 375.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "vendor/env/physics.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465327964.86,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
+							"tabs_extra_last_activated": 1465326334.1,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "vendor/env/cameras.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326333.32,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/turtle/Projects/go/src/github.com/luxengine/lux/transform.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1170,
+								1170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326334.48,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "vendor/env/phys.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326336.72,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/turtle/Projects/go/src/github.com/luxengine/lux/models.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1365,
+								1365
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326215.19,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "vendor/env/lights.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								581,
+								581
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1465326214.73,
+							"tabs_extra_last_activated_sheet_index": 5,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 18.0
+	},
+	"input":
+	{
+		"height": 23.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			],
+			[
+				2,
+				1,
+				3,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.311912640635,
+			0.7,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.952919020716,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.9o:///home/turtle/Projects/go/src/router/controllers/ssh":
+	{
+		"height": 65.0
+	},
+	"output.9o:///srv/go/src/local/virtualEthernet":
+	{
+		"height": 65.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 59.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 59.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 65.0
+	},
+	"pinned_build_system": "",
+	"project": "lux-concept.sublime-project",
+	"replace":
+	{
+		"height": 57.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 127.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
