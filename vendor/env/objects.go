@@ -167,7 +167,7 @@ func (e *Object) VectorForward(scale float32) (float32, float32) {
 func (e *Object) VectorSide(scale float32) (float32, float32) {
 	var angle float64
 	if e.Shape != nil {
-		angle = float64(e.Shape.Body.Angle()) - 1.5708 // <- 90 deg
+		angle = float64(e.Shape.Body.Angle()) - 1.5708 // ~90 deg
 	}
 
 	xa := float32(math.Sin(angle)) * scale

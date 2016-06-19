@@ -1,6 +1,9 @@
 package env
 
 import (
+	"log"
+	"time"
+
 	"github.com/go-gl/glfw/v3.1/glfw"
 	lux "github.com/luxengine/lux/render"
 )
@@ -8,6 +11,7 @@ import (
 var (
 	WindowWidth  = 1200
 	WindowHeight = 800
+	Ratio        = float32(WindowWidth) / float32(WindowHeight)
 
 	MainCam lux.Camera //MainCamera
 )
@@ -56,26 +60,21 @@ func initWindow() (r *Render, err error) {
 
 //Loop is main loop
 func (r *Render) Loop() {
+	lastFrame := time.Now()
+	var fps int
 	for !r.Window.ShouldClose() {
 		if r.Window.GetKey(glfw.KeyEscape) == glfw.Press {
 			break
 		}
-
-		// gl.Clear(gl.COLOR_BUFFER_BIT)
-		// gl.Enable(gl.BLEND)
-		// gl.Enable(gl.POINT_SMOOTH)
-		// gl.Enable(gl.LINE_SMOOTH)
-		// gl.BlendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA)
-		// gl.LoadIdentity()
-
-		// gl.Begin(gl.LINES)
-		// gl.Color3f(.2, .2, .2)
-		// gl.Vertex3f(1, 0, 1)
-		// gl.Vertex3f(2, 0, 2)
-		// gl.End()
+		fps++
+		thisFrame := time.Now()
+		if lastFrame.Add(time.Second).Before(thisFrame) {
+			log.Println(fps)
+			fps = 0
+			lastFrame = thisFrame
+		}
 
 		phys2gl()
-		// phys2gl(players)
 
 		// lights
 		for _, light := range lights {
@@ -104,7 +103,7 @@ func (r *Render) Loop() {
 		// render shadows
 		for _, light := range lights {
 			if light.shadowfbo != nil {
-				r.gbuf.RenderLight(&MainCam, &light.Point, light.shadowfbo.ShadowMat(), light.shadowfbo.ShadowMap(), 0.5, 0.2, light.Intensity/100)
+				r.gbuf.RenderLight(&MainCam, &light.Point, light.shadowfbo.ShadowMat(), light.shadowfbo.ShadowMap(), 10, 0.2, light.Intensity/100)
 			}
 		}
 

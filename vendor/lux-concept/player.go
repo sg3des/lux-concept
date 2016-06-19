@@ -2,7 +2,6 @@ package main
 
 import (
 	"env"
-	"log"
 	"param"
 	"phys"
 
@@ -30,8 +29,8 @@ func newPlayer() {
 		LeftWeapon: &param.Weapon{
 			BulletObject: param.Object{
 				Name: "bullet",
-				Mesh: param.Mesh{Model: "bullet", Texture: "red", Shadow: true},
-				PH:   param.Phys{W: 1, H: 1, Mass: 0.1},
+				Mesh: param.Mesh{Model: "bullet", Texture: "green"},
+				PH:   param.Phys{W: 0.1, H: 0.1, Mass: 0.1},
 			},
 			X:           -1,
 			Damage:      20,
@@ -40,10 +39,11 @@ func newPlayer() {
 		RightWeapon: &param.Weapon{
 			BulletObject: param.Object{
 				Name: "bullet",
-				Mesh: param.Mesh{Model: "bullet", Texture: "red", Shadow: true},
-				PH:   param.Phys{W: 1, H: 1, Mass: 0.1},
+				Mesh: param.Mesh{Model: "bullet", Texture: "red"},
+				PH:   param.Phys{W: 0.1, H: 0.1, Mass: 0.1},
 			},
 			X:           1,
+			Damage:      50,
 			BulletSpeed: 20,
 		},
 	}
@@ -78,21 +78,19 @@ func Fire(w *param.Weapon, p *env.Object) {
 	vx, vz := localPlayer.VectorSide(1)
 	x, z := localPlayer.Position()
 
-	log.Println(vx, vz, x, z)
+	// for {
+
+	// }
 	bullet := env.NewMesh(w.BulletObject)
 	bullet.SetPosition(x+w.X*vx, 1, z+w.X*vz)
 	bullet.SetRotation(localPlayer.Rotation())
 	bullet.Shape.Body.SetVelocity(localPlayer.VectorForward(w.BulletSpeed))
-
-	// bullet.Shape.Body.SetAngle()
 
 	bullet.Parent = localPlayer
 	bullet.Shape.Body.CallBackCollision = BulletCollision
 }
 
 func BulletCollision(arb *phys.Arbiter) bool {
-	// log.Println(arb)
-
 	if arb.BodyA.UserData == nil || arb.BodyB.UserData == nil {
 		return true
 	}
@@ -108,24 +106,11 @@ func BulletCollision(arb *phys.Arbiter) bool {
 		target = arb.BodyA.UserData.(*env.Object)
 	}
 
-	// log.Println(bullet, target)
-
 	if bullet.Parent == target {
 		return false
 	}
 
 	bullet.Destroy()
-
-	// a := arb.BodyA.UserData.(*env.Object)
-	// b := arb.BodyB.UserData.(*env.Object)
-
-	// if a.Parent != nil && a.Parent == b {
-	// 	return false
-	// }
-
-	// if b.Parent != nil && b.Parent == a {
-	// 	return false
-	// }
 
 	return true
 }

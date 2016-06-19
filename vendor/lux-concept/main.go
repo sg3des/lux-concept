@@ -84,15 +84,11 @@ func initCursor() {
 }
 
 func cameraMovement() {
-	// px, py := localPlayer.Position()
+	px, py := localPlayer.Position()
 	campos := env.MainCam.Pos
 	x, z := r.Window.GetCursorPos()
 	w, h := r.Window.GetSize()
 	cx, cz := getCursorPos(float32(x), float32(z), w, h, campos)
-
-	cursor.SetPosition(cx, 10, cz)
-
-	env.MainCam.LookAtval(0, 40, 5, 0, -200, 0, 0, 100, 0)
-	// env.MainCam.Pos.X = px
-	// env.MainCam.Pos.Z = py
+	cursor.SetPosition(cx, 1, cz)
+	env.MainCam.LookAtval(px, 40, py+1, px, 0, py, 0, 1, 0)
 }

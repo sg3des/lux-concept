@@ -23,8 +23,8 @@ func AngleBetweenAngles(pa, ca float32) float32 {
 }
 
 func getCursorPos(x, z float32, w, h int, campos glm.Vec3) (float32, float32) {
-	x = (x-float32(w)/2)/670*campos.Y + campos.X
-	z = (z-float32(h)/2)/670*campos.Y + campos.Z
+	x = (x-float32(w)/2)/400*campos.Y + campos.X
+	z = (z-float32(h)/2)/400*campos.Y + campos.Z
 
 	return x, z
 }
