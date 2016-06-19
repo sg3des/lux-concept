@@ -82,8 +82,8 @@ func (r *Render) Loop() {
 			if light.shadowfbo != nil {
 				light.shadowfbo.BindForDrawing()
 
-				for _, object := range objects {
-					if object.Shadow {
+				for object, enabled := range objects {
+					if object.Shadow && enabled {
 						light.shadowfbo.Render(object.Mesh, object.Trans)
 					}
 				}
@@ -95,8 +95,10 @@ func (r *Render) Loop() {
 		r.gbuf.Bind(&MainCam)
 
 		// render objects
-		for _, object := range objects {
-			r.gbuf.Render(&MainCam, object.Mesh, object.Texture, object.Trans)
+		for object, enabled := range objects {
+			if enabled {
+				r.gbuf.Render(&MainCam, object.Mesh, object.Texture, object.Trans)
+			}
 		}
 
 		// render shadows

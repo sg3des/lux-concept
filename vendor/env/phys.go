@@ -33,8 +33,8 @@ func Physloop() {
 		// 	}
 		// }
 
-		for _, object := range dynamics {
-			if object.Param != nil {
+		for object, enabled := range dynamics {
+			if object.Param != nil && enabled {
 				milk(object, dt)
 			}
 		}
@@ -57,16 +57,16 @@ func milk(object *Object, dt float32) {
 }
 
 func phys2gl() {
-	for _, object := range dynamics {
-		if object.Shape == nil {
+	for object, enabled := range dynamics {
+		if object.Shape == nil && !enabled {
 			continue
 		}
 
-		// y := object.Trans.LocalToWorld.Col(3).Y
+		y := object.Trans.LocalToWorld.Col(3).Y
 		pos := object.Shape.Body.Position()
 		ang := object.Shape.Body.Angle()
 
-		mat := glm.Translate3D(pos.X, 0, pos.Y)
+		mat := glm.Translate3D(pos.X, y, pos.Y)
 
 		if object.Param != nil {
 			q := glm.AnglesToQuat(0, ang, object.Param.SubAngle, 1)

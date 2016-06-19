@@ -2,6 +2,7 @@ package main
 
 import (
 	"env"
+	"log"
 	"param"
 	"phys"
 
@@ -22,23 +23,27 @@ func newPlayer() {
 			PH:   param.Phys{W: 2, H: 2, Mass: 10},
 		},
 
+		Health:   100,
 		MovSpeed: 4,
 		RotSpeed: 15,
 
 		LeftWeapon: &param.Weapon{
 			BulletObject: param.Object{
 				Name: "bullet",
-				Mesh: param.Mesh{Model: "cube", Texture: "brown", Shadow: true},
-				PH:   param.Phys{W: 1, H: 1, Mass: 1},
+				Mesh: param.Mesh{Model: "bullet", Texture: "red", Shadow: true},
+				PH:   param.Phys{W: 1, H: 1, Mass: 0.1},
 			},
+			X:           -1,
+			Damage:      20,
 			BulletSpeed: 30,
 		},
 		RightWeapon: &param.Weapon{
 			BulletObject: param.Object{
 				Name: "bullet",
-				Mesh: param.Mesh{Model: "cube", Texture: "brown", Shadow: true},
-				PH:   param.Phys{W: 1, H: 1, Mass: 1},
+				Mesh: param.Mesh{Model: "bullet", Texture: "red", Shadow: true},
+				PH:   param.Phys{W: 1, H: 1, Mass: 0.1},
 			},
+			X:           1,
 			BulletSpeed: 20,
 		},
 	}
@@ -50,8 +55,8 @@ func newPlayer() {
 }
 
 func playerMovement(dt float32) {
-	cpx, cpy := cursor.Position()
-	LookAtTarget(localPlayer, cpx, cpy, dt)
+	cpx, cpz := cursor.Position()
+	LookAtTarget(localPlayer, cpx, cpz, dt)
 
 	dist := Distance(cursor, localPlayer)
 
@@ -70,32 +75,57 @@ func mouseCountrol(w *glfw.Window, button glfw.MouseButton, action glfw.Action, 
 }
 
 func Fire(w *param.Weapon, p *env.Object) {
-	x, y := localPlayer.Position()
+	vx, vz := localPlayer.VectorSide(1)
+	x, z := localPlayer.Position()
 
+	log.Println(vx, vz, x, z)
 	bullet := env.NewMesh(w.BulletObject)
-	bullet.SetPosition(x, 1, y)
+	bullet.SetPosition(x+w.X*vx, 1, z+w.X*vz)
+	bullet.SetRotation(localPlayer.Rotation())
 	bullet.Shape.Body.SetVelocity(localPlayer.VectorForward(w.BulletSpeed))
+
 	// bullet.Shape.Body.SetAngle()
 
 	bullet.Parent = localPlayer
-	bullet.Shape.Body.CallBackCollision = collision
+	bullet.Shape.Body.CallBackCollision = BulletCollision
 }
 
-func collision(arv *phys.Arbiter) bool {
-	if arv.BodyA.UserData == nil || arv.BodyB.UserData == nil {
+func BulletCollision(arb *phys.Arbiter) bool {
+	// log.Println(arb)
+
+	if arb.BodyA.UserData == nil || arb.BodyB.UserData == nil {
 		return true
 	}
 
-	a := arv.BodyA.UserData.(*env.Object)
-	b := arv.BodyB.UserData.(*env.Object)
+	var bullet *env.Object
+	var target *env.Object
 
-	if a.Parent != nil && a.Parent == b {
+	if arb.BodyA.UserData.(*env.Object).Name == "bullet" {
+		bullet = arb.BodyA.UserData.(*env.Object)
+		target = arb.BodyB.UserData.(*env.Object)
+	} else {
+		bullet = arb.BodyB.UserData.(*env.Object)
+		target = arb.BodyA.UserData.(*env.Object)
+	}
+
+	// log.Println(bullet, target)
+
+	if bullet.Parent == target {
 		return false
 	}
 
-	if b.Parent != nil && b.Parent == a {
-		return false
-	}
+	bullet.Destroy()
+
+	// a := arb.BodyA.UserData.(*env.Object)
+	// b := arb.BodyB.UserData.(*env.Object)
+
+	// if a.Parent != nil && a.Parent == b {
+	// 	return false
+	// }
+
+	// if b.Parent != nil && b.Parent == a {
+	// 	return false
+	// }
 
 	return true
 }

@@ -1,6 +1,7 @@
 package env
 
 import (
+	"log"
 	"math"
 
 	"github.com/luxengine/lux/gl"
@@ -12,9 +13,10 @@ import (
 )
 
 var (
-	dynamics []*Object
-	objects  []*Object
-	assman   lux.AssetManager
+	assman lux.AssetManager
+
+	dynamics = make(map[*Object]bool)
+	objects  = make(map[*Object]bool)
 )
 
 //Object is object
@@ -24,6 +26,7 @@ type Object struct {
 	Texture gl.Texture2D
 	Trans   *lux.Transform
 	Shadow  bool
+	Enable  bool
 
 	Shape *phys.Shape
 
@@ -42,6 +45,7 @@ func initAssets() {
 	assman.LoadModel("tree.obj", "tree")
 	assman.LoadModel("trapeze.obj", "trapeze")
 	assman.LoadModel("cursor.obj", "cursor")
+	assman.LoadModel("bullet.obj", "bullet")
 
 	assman.LoadTexture("square.png", "square")
 	assman.LoadTexture("grass.png", "grass")
@@ -67,7 +71,7 @@ func NewSquare() {
 
 	o.Trans.Scale(10)
 
-	objects = append(objects, o)
+	objects[o] = true
 }
 
 func NewMesh(p param.Object) *Object {
@@ -77,6 +81,7 @@ func NewMesh(p param.Object) *Object {
 		Mesh:    assman.Models[p.Mesh.Model],
 		Texture: assman.Textures[p.Mesh.Texture],
 		Shadow:  p.Mesh.Shadow,
+		Enable:  true,
 	}
 	o.Trans.Translate(p.Pos.X, p.Pos.Y, p.Pos.Z)
 
@@ -86,12 +91,12 @@ func NewMesh(p param.Object) *Object {
 			o.SetStaticShape(p.PH, p.Pos)
 		} else {
 			o.SetShape(p.PH, p.Pos)
-			dynamics = append(dynamics, o)
+			dynamics[o] = true
 		}
 
 	}
 
-	objects = append(objects, o)
+	objects[o] = true
 	return o
 }
 
@@ -148,10 +153,50 @@ func (o *Object) SetPosition(x, y, z float32) {
 }
 
 func (e *Object) VectorForward(scale float32) (float32, float32) {
-	y := float64(e.Shape.Body.Angle())
+	var angle float64
+	if e.Shape != nil {
+		angle = float64(e.Shape.Body.Angle())
+	}
 
-	xa := float32(math.Sin(y)) * scale
-	za := float32(math.Cos(y)) * scale
+	xa := float32(math.Sin(angle)) * scale
+	za := float32(math.Cos(angle)) * scale
 
 	return xa, za
+}
+
+func (e *Object) VectorSide(scale float32) (float32, float32) {
+	var angle float64
+	if e.Shape != nil {
+		angle = float64(e.Shape.Body.Angle()) - 1.5708 // <- 90 deg
+	}
+
+	xa := float32(math.Sin(angle)) * scale
+	za := float32(math.Cos(angle)) * scale
+
+	return xa, za
+}
+
+func (e *Object) Rotation() float32 {
+	if e.Shape != nil {
+		return e.Shape.Body.Angle()
+	}
+	log.Println("WARN: NEED WRITE `SET ROTATION` FOR LUX TRANSFORM")
+	return 0
+}
+
+func (e *Object) SetRotation(angle float32) {
+	if e.Shape != nil {
+		e.Shape.Body.SetAngle(angle)
+		return
+	}
+	log.Println("WARN: NEED WRITE `SET ROTATION` FOR LUX TRANSFORM")
+}
+
+func (e *Object) Destroy() {
+	e.Shape.Body.Enabled = false
+	e.Mesh.Delete() // <- not work?
+	delete(objects, e)
+	delete(dynamics, e)
+	e = nil
+	// delete(e)
 }

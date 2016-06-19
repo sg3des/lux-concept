@@ -55,6 +55,11 @@ func (v1 *Vect) Sub(v2 Vect) {
 	v1.Y -= v2.Y
 }
 
+//subtracts v2 rom the given vector.
+func (v *Vect) Angle() float32 {
+	return float32(math.Atan2(float64(v.Y), float64(v.X)))
+}
+
 //returns the squared length of the vector.
 func (v Vect) LengthSqr() float32 {
 	//length of a vector: distance to origin

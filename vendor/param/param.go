@@ -4,13 +4,15 @@ type Player struct {
 	Name   string
 	Object Object
 
-	MovSpeed, RotSpeed, SubAngle float32
+	Health, MovSpeed, RotSpeed, SubAngle float32
 
 	LeftWeapon, RightWeapon *Weapon
 }
 
 type Weapon struct {
 	BulletObject Object
+
+	X float32
 
 	Damage       float32
 	AttackRate   float32
