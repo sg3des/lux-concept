@@ -4,6 +4,7 @@ import (
 	"env"
 	"param"
 	"phys"
+	"time"
 
 	"github.com/go-gl/glfw/v3.1/glfw"
 )
@@ -30,11 +31,12 @@ func newPlayer() {
 			BulletObject: param.Object{
 				Name: "bullet",
 				Mesh: param.Mesh{Model: "bullet", Texture: "green"},
-				PH:   param.Phys{W: 0.1, H: 0.1, Mass: 0.1},
+				PH:   param.Phys{W: 0.1, H: 0.1, Mass: 0.001},
 			},
 			X:           -1,
 			Damage:      20,
-			BulletSpeed: 30,
+			AttackRate:  1 * time.Millisecond,
+			BulletSpeed: 300,
 		},
 		RightWeapon: &param.Weapon{
 			BulletObject: param.Object{
@@ -44,6 +46,7 @@ func newPlayer() {
 			},
 			X:           1,
 			Damage:      50,
+			AttackRate:  500 * time.Millisecond,
 			BulletSpeed: 20,
 		},
 	}
@@ -61,33 +64,37 @@ func playerMovement(dt float32) {
 	dist := Distance(cursor, localPlayer)
 
 	localPlayer.Shape.Body.AddVelocity(localPlayer.VectorForward(dt * localPlayer.Param.MovSpeed * 0.08 * dist))
+
+	Fire(localPlayer.Param.LeftWeapon, localPlayer)
+	Fire(localPlayer.Param.RightWeapon, localPlayer)
 }
 
 func mouseCountrol(w *glfw.Window, button glfw.MouseButton, action glfw.Action, mod glfw.ModifierKey) {
 
-	if button == 0 && action == 1 {
-		Fire(localPlayer.Param.LeftWeapon, localPlayer)
+	if button == 0 {
+		localPlayer.Param.LeftWeapon.Shoot = action == 1
 	}
 
-	if button == 1 && action == 1 {
-		Fire(localPlayer.Param.RightWeapon, localPlayer)
+	if button == 1 {
+		localPlayer.Param.RightWeapon.Shoot = action == 1
 	}
 }
 
 func Fire(w *param.Weapon, p *env.Object) {
-	vx, vz := localPlayer.VectorSide(1)
-	x, z := localPlayer.Position()
+	if w.Shoot && w.NextShot.Before(time.Now()) {
+		vx, vz := localPlayer.VectorSide(1)
+		x, z := localPlayer.Position()
 
-	// for {
+		bullet := env.NewMesh(w.BulletObject)
+		bullet.SetPosition(x+w.X*vx, 1, z+w.X*vz)
+		bullet.SetRotation(localPlayer.Rotation())
+		bullet.Shape.Body.SetVelocity(localPlayer.VectorForward(w.BulletSpeed))
 
-	// }
-	bullet := env.NewMesh(w.BulletObject)
-	bullet.SetPosition(x+w.X*vx, 1, z+w.X*vz)
-	bullet.SetRotation(localPlayer.Rotation())
-	bullet.Shape.Body.SetVelocity(localPlayer.VectorForward(w.BulletSpeed))
+		bullet.Parent = localPlayer
+		bullet.Shape.Body.CallBackCollision = BulletCollision
 
-	bullet.Parent = localPlayer
-	bullet.Shape.Body.CallBackCollision = BulletCollision
+		w.NextShot = time.Now().Add(w.AttackRate)
+	}
 }
 
 func BulletCollision(arb *phys.Arbiter) bool {

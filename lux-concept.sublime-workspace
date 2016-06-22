@@ -4,6 +4,158 @@
 		"selected_items":
 		[
 			[
+				"Mi",
+				"Millisecond	 Ɩ"
+			],
+			[
+				"N",
+				"Now	time.Time ƒ"
+			],
+			[
+				"s",
+				"Second	 Ɩ"
+			],
+			[
+				"a",
+				"Add	time.Time ƒ"
+			],
+			[
+				"sh",
+				"shadowfbo	*lux.ShadowFBO ν"
+			],
+			[
+				"Print",
+				"Println	 ƒ"
+			],
+			[
+				"ob",
+				"objects	map[*Object]bool ν"
+			],
+			[
+				"obj",
+				"objects	map[*Object]bool ν"
+			],
+			[
+				"B",
+				"Body	*phys.Body ν"
+			],
+			[
+				"p",
+				"Parent	*env.Object ν"
+			],
+			[
+				"Bo",
+				"BodyB	*phys.Body ν"
+			],
+			[
+				"set",
+				"SetRotation	 ƒ"
+			],
+			[
+				"Ata",
+				"Atan2	float64 ƒ"
+			],
+			[
+				"float",
+				"float64	built-in ʈ"
+			],
+			[
+				"setv",
+				"SetAngularVelocity	 ƒ"
+			],
+			[
+				"Lo",
+				"LookAtval	 ƒ"
+			],
+			[
+				"se",
+				"SetScale	 ƒ"
+			],
+			[
+				"v",
+				"Vector_Zero	vect.Vect ν"
+			],
+			[
+				"M",
+				"Mesh	lux.Mesh ν"
+			],
+			[
+				"sc",
+				"Scale	 ƒ"
+			],
+			[
+				"Ve",
+				"Vec3	struct ʈ"
+			],
+			[
+				"m",
+				"Mesh	lux.Mesh ν"
+			],
+			[
+				"Ob",
+				"Object	struct ʈ"
+			],
+			[
+				"tra",
+				"trans	*lux.Transform ν"
+			],
+			[
+				"new",
+				"NewTransform	*lux.Transform ƒ"
+			],
+			[
+				"New",
+				"NewSquare	 ƒ"
+			],
+			[
+				"Bu",
+				"BulletSpeed	float32 ν"
+			],
+			[
+				"b",
+				"Body	*phys.Body ν"
+			],
+			[
+				"pa",
+				"param	 package ρ"
+			],
+			[
+				"t",
+				"Trans	*lux.Transform ν"
+			],
+			[
+				"V",
+				"Vect	struct ʈ"
+			],
+			[
+				"Set",
+				"SetShape	 ƒ"
+			],
+			[
+				"Vec",
+				"Vector_Zero	vect.Vect ν"
+			],
+			[
+				"NewBo",
+				"NewBodyStatic	body *phys.Body ƒ"
+			],
+			[
+				"Sh",
+				"Shape	*phys.Shape ν"
+			],
+			[
+				"S",
+				"Shape	*phys.Shape ν"
+			],
+			[
+				"news",
+				"NewBodyStatic	body *phys.Body ƒ"
+			],
+			[
+				"c",
+				"Col	glm.Vec4 ƒ"
+			],
+			[
 				"ar",
 				"Arbiters	[]*chipmunk.Arbiter ν"
 			],
@@ -16,28 +168,12 @@
 				"body	*chipmunk.Body ν"
 			],
 			[
-				"new",
-				"NewBox	*chipmunk.Shape ƒ"
-			],
-			[
-				"B",
-				"Body	*chipmunk.Body ν"
-			],
-			[
-				"p",
-				"Phys	struct ʈ"
-			],
-			[
 				"add",
 				"AddVelocity	 ƒ"
 			],
 			[
 				"ad",
 				"AddVelocity	 ƒ"
-			],
-			[
-				"b",
-				"Body	*chipmunk.Body ν"
 			],
 			[
 				"play",
@@ -48,16 +184,8 @@
 				"float32	built-in ʈ"
 			],
 			[
-				"Ob",
-				"objects	[]*Object ν"
-			],
-			[
 				"setA",
 				"SetAngularVelocity	 ƒ"
-			],
-			[
-				"sh",
-				"Shape	*chipmunk.Shape ν"
 			],
 			[
 				"av",
@@ -68,27 +196,7 @@
 				"AngularVelocity	float32 ƒ"
 			],
 			[
-				"set",
-				"SetFriction	 ƒ"
-			],
-			[
 				"Mu",
-				"Mul4	glm.Mat4 ƒ"
-			],
-			[
-				"a",
-				"Add	glm.Mat4 ƒ"
-			],
-			[
-				"m",
-				"Mat4	glm.Mat4 ƒ"
-			],
-			[
-				"Sh",
-				"Shape	*chipmunk.Shape ν"
-			],
-			[
-				"M",
 				"Mul4	glm.Mat4 ƒ"
 			],
 			[
@@ -100,32 +208,12 @@
 				"Mul4	glm.Mat4 ƒ"
 			],
 			[
-				"tra",
-				"Translate3D	glm.Mat4 ƒ"
-			],
-			[
 				"gl",
 				"glm	 package ρ"
 			],
 			[
-				"Ve",
-				"Vec3	struct ʈ"
-			],
-			[
-				"se",
-				"SetPosition	 ƒ"
-			],
-			[
 				"Se",
 				"SetPosition	 ƒ"
-			],
-			[
-				"New",
-				"NewMesh	*env.Object ƒ"
-			],
-			[
-				"s",
-				"Shape	*chipmunk.Shape ν"
 			],
 			[
 				"P",
@@ -138,14 +226,6 @@
 			[
 				"NewB",
 				"NewBox	*chipmunk.Shape ƒ"
-			],
-			[
-				"S",
-				"Shape	*chipmunk.Shape ν"
-			],
-			[
-				"c",
-				"MainCam	lux.Camera ν"
 			],
 			[
 				"getC",
@@ -206,10 +286,6 @@
 			[
 				"F",
 				"Files	[]InFiles ν"
-			],
-			[
-				"sc",
-				"scheme	struct ʈ"
 			],
 			[
 				"re",
@@ -384,16 +460,8 @@
 				"OpenVPNs	[]*VPN ν"
 			],
 			[
-				"Lo",
-				"Log	bytes.Buffer ν"
-			],
-			[
 				"SSH",
 				"SSHChains	[]*Chain ν"
-			],
-			[
-				"N",
-				"Nodes	[]*SSH ν"
 			],
 			[
 				"pare",
@@ -446,74 +514,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"lo",
-				"LogRedSocks	bytes.Buffer ν"
-			],
-			[
-				"Stde",
-				"Stderr	io.Writer ν"
-			],
-			[
-				"ch",
-				"CmdSSHChain	*exec.Cmd ν"
-			],
-			[
-				"Process",
-				"Process	*os.Process ν"
-			],
-			[
-				"l",
-				"launched	bool ƒ"
-			],
-			[
-				"remo",
-				"RemoveAll	error ƒ"
-			],
-			[
-				"mi",
-				"Millisecond	 Ɩ"
-			],
-			[
-				"read",
-				"ReadCloser	interface ¡"
-			],
-			[
-				"res",
-				"response	[]byte ν"
-			],
-			[
-				"i",
-				"IP	string ν"
-			],
-			[
-				"Ma",
-				"MatchString	bool ƒ"
-			],
-			[
-				"getAtt",
-				"getAttribute(attributeName)	Element"
-			],
-			[
-				"Ine",
-				"innerHTML	Element"
-			],
-			[
-				"D",
-				"Device	struct ʈ"
-			],
-			[
-				"In",
-				"Interface	i interface{} ƒ"
-			],
-			[
-				"Va",
-				"ValueOf	reflect.Value ƒ"
-			],
-			[
-				"Fie",
-				"FieldByName	reflect.Value ƒ"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "vendor/lux-concept/player.go",
 			"settings":
 			{
-				"buffer_size": 2522,
+				"buffer_size": 2799,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,15 +531,15 @@
 			"file": "vendor/lux-concept/main.go",
 			"settings":
 			{
-				"buffer_size": 1255,
+				"buffer_size": 1758,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "vendor/lux-concept/math.go",
+			"file": "vendor/lux-concept/utils.go",
 			"settings":
 			{
-				"buffer_size": 640,
+				"buffer_size": 1607,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +547,23 @@
 			"file": "vendor/env/objects.go",
 			"settings":
 			{
-				"buffer_size": 2183,
+				"buffer_size": 4344,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/phys/vect/vect.go",
+			"settings":
+			{
+				"buffer_size": 4176,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".git/info/exclude",
+			"settings":
+			{
+				"buffer_size": 248,
 				"line_ending": "Unix"
 			}
 		},
@@ -563,7 +579,71 @@
 			"file": "vendor/env/window.go",
 			"settings":
 			{
-				"buffer_size": 2083,
+				"buffer_size": 2486,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/env/cameras.go",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/turtle/Projects/go/src/github.com/luxengine/lux/render/camera.go",
+			"settings":
+			{
+				"buffer_size": 1432,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "backup/160407/main_dev.go",
+			"settings":
+			{
+				"buffer_size": 5556,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/env/phys.go",
+			"settings":
+			{
+				"buffer_size": 1541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/env/lights.go",
+			"settings":
+			{
+				"buffer_size": 987,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/param/param.go",
+			"settings":
+			{
+				"buffer_size": 680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/models/square.mtl",
+			"settings":
+			{
+				"buffer_size": 137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/models/square.obj",
+			"settings":
+			{
+				"buffer_size": 351,
 				"line_ending": "Unix"
 			}
 		},
@@ -572,65 +652,6 @@
 			"settings":
 			{
 				"buffer_size": 242,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "vendor/env/cameras.go",
-			"settings":
-			{
-				"buffer_size": 286,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "vendor/env/phys.go",
-			"settings":
-			{
-				"buffer_size": 1446,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/turtle/Projects/go/src/github.com/TheZeroSlave/chipmunk/arbiter.go",
-			"settings":
-			{
-				"buffer_size": 8881,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/turtle/Projects/go/src/github.com/TheZeroSlave/chipmunk/space.go",
-			"settings":
-			{
-				"buffer_size": 24656,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "vendor/env/lights.go",
-			"settings":
-			{
-				"buffer_size": 903,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "package main\n\nimport (\n	\"github.com/go-gl/glfw/v3.1/glfw\"\n\n	\"log\"\n	\"runtime\"\n\n	\"github.com/luxengine/lux\"\n	\"github.com/luxengine/lux/debug\"\n	\"github.com/luxengine/math\"\n)\n\n// Default window size\nvar (\n	WindowWidth  = 1200\n	WindowHeight = 800\n\n	assman lux.AssetManager\n\n	angle float32\n	cam   lux.Camera\n	lamp  lux.PointLight\n\n	window *glfw.Window\n	gbuf   lux.GBuffer\n\n	tonemap *lux.PostProcessFramebuffer\n	fxaa    *lux.PostProcessFramebuffer\n\n	shadowfbo *lux.ShadowFBO\n\n	// w *tornago.World\n\n	skydome       lux.Mesh\n	skydomeTransf *lux.Transform\n\n	err error\n)\n\nfunc init() {\n	// GLFW event handling must run on the main OS thread\n	runtime.LockOSThread()\n}\n\nfunc main() {\n	newWindow()\n\n	// === asset manager testing === //\n	assman = lux.NewAssetManager(\"assets/\", \"models/\", \"shaders/\", \"textures/\")\n	assman.LoadModel(\"skydome.obj\", \"skydome\")\n	assman.LoadModel(\"ground.obj\", \"ground\")\n\n	assman.LoadTexture(\"square.png\", \"square\")\n	assman.LoadTexture(\"skydome.png\", \"skydome\")\n	assman.LoadTexture(\"red.png\", \"red\")\n	assman.LoadTexture(\"brown.png\", \"brown\")\n\n	skydome = assman.Models[\"skydome\"]\n\n	skydomeTransf = lux.NewTransform()\n\n	// ==camera== //\n	// var cam lux.Camera\n	cam.SetPerspective(70.0, float32(int32(WindowWidth))/float32(WindowHeight), 0.1, 100.0)\n	cam.LookAtval(-9, 9, 9, 0, 0, 0, 0, 1, 0)\n\n	// === lights === //\n	lamp.Move(0, 2, 1)\n\n	// === shadow === //\n	shadowfbo, err = lux.NewShadowFBO(4096, 4096)\n	if err != nil {\n		log.Fatal(err)\n	}\n	shadowfbo.SetOrtho(-10, 10, -10, 10, 0, 10)\n\n	// // === tornago === //\n	// w = tornago.NewWorld(&tornago.NaiveBroadphase{}, tornago.ContactResolver{})\n	// boxBody := tornago.NewRigidBody()\n	// boxBody.SetPosition3f(0, 0, 0)\n	// boxBody.SetVelocity3f(0, 0, 0)\n	// boxShape := tornago.NewCollisionBox(glm.Vec3{0.5, 0.5, 0.5})\n\n	// boxBody.SetCollisionShape(boxShape)\n	// boxBody.SetAcceleration3f(0, -5, 0)\n	// boxBody.SetRestitution(1)\n	// boxBody.SetAngularDamping(0.8)\n	// boxBody.SetLinearDamping(0.8)\n	// boxBody.SetFriction(2)\n	// boxBody.SetMass(1)\n\n	// boxBody2 := tornago.NewRigidBody()\n	// boxBody2.SetPosition3f(0.25, 2, 0)\n	// boxBody2.SetVelocity3f(0, 0, 0)\n	// boxShape2 := tornago.NewCollisionBox(glm.Vec3{0.5, 0.5, 0.5})\n\n	// boxBody2.SetCollisionShape(boxShape2)\n	// boxBody2.SetAcceleration3f(0, -10, 0)\n	// boxBody2.SetRestitution(1)\n	// boxBody2.SetAngularDamping(0.9)\n	// boxBody2.SetLinearDamping(0.9)\n	// boxBody2.SetFriction(5)\n	// boxBody2.SetMass(2)\n\n	// b2 := tornago.NewRigidBody()\n	// boxShapeGround := tornago.NewCollisionBox(glm.Vec3{999, 1, 999})\n	// b2.SetCollisionShape(boxShapeGround)\n	// b2.SetPosition3f(0, -2.5, 0)\n	// b2.SetMass(0)\n	// b2.SetRestitution(0)\n	// b2.SetFriction(0)\n\n	// w.AddRigidBody(b2)\n	// w.AddRigidBody(boxBody)\n	// w.AddRigidBody(boxBody2)\n\n	// boxModel := lux.NewVUNModel(boxShape.Mesh())\n\n	// boxRBTransf := lux.NewTransform()\n	// boxRBTransf2 := lux.NewTransform()\n\n	// am := lux.NewAgentManager()\n	// am.NewAgent(func() bool {\n	// 	var m glm.Mat4\n	// 	boxBody.OpenGLMatrix(&m)\n	// 	boxRBTransf.SetMatrix((*[16]float32)(&m))\n	// 	return true\n	// })\n	// am.NewAgent(func() bool {\n	// 	var m glm.Mat4\n	// 	boxBody2.OpenGLMatrix(&m)\n	// 	boxRBTransf2.SetMatrix((*[16]float32)(&m))\n	// 	return true\n	// })\n\n	loop()\n\n	assman.Clean()\n}\n\nfunc newWindow() {\n	// === ok thats pretty clean === //\n	lux.InitGLFW()\n\n	window = lux.CreateWindow(WindowWidth, WindowHeight, \"\", false)\n	debug.EnableGLDebugLogging()\n\n	gbuf, err = lux.NewGBuffer(int32(WindowWidth), int32(WindowHeight))\n	if err != nil {\n		log.Fatal(err)\n	}\n\n	// post process //\n	lux.InitPostProcessSystem()\n\n	fxaa, err = lux.NewPostProcessFramebuffer(int32(WindowWidth), int32(WindowHeight), lux.PostprocessfragmentshaderFxaa)\n	if err != nil {\n		log.Fatal(err)\n	}\n	// defer fxaa.Delete()\n\n	tonemap, err = lux.NewPostProcessFramebuffer(int32(WindowWidth), int32(WindowHeight), lux.PostProcessFragmentShaderToneMapping)\n	if err != nil {\n		log.Fatal(err)\n	}\n	// defer tonemap.Delete()\n\n	fxaa.SetNext(tonemap)\n}\n\nfunc loop() {\n	// ===init of app specific stuff=== //\n	angle := 0.0\n	previousTime := glfw.GetTime()\n\n	// ===render loop=== //\n	for !window.ShouldClose() {\n		if window.GetKey(glfw.KeyEscape) == glfw.Press {\n			break\n		}\n\n		// ==Update== //\n		time := glfw.GetTime()\n		elapsed := time - previousTime\n		previousTime = time\n		angle += elapsed\n\n		// === tornago === //\n		// i++\n		//if i%10 == 0 {\n		// w.Step(float32(elapsed))\n		// am.Tick()\n		//}\n\n		// ==shadow== //\n		shadowfbo.BindForDrawing()\n		// shadowfbo.Render(sphere, sphereTransf)\n		// shadowfbo.Render(ground, groundTransf)\n		// shadowfbo.Render(boxModel, boxRBTransf)\n		// shadowfbo.Render(boxModel, boxRBTransf2)\n		shadowfbo.Unbind()\n\n		// cam.LookAtval(float32(5*math.Cos(angle/2)), 5, float32(5*math.Sin(angle/2)), 0, 0, 0, 0, 1, 0)\n		lamp.Move(3*math.Cos(float32(angle/2)), 3, 3*math.Sin(float32(angle/2)))\n		shadowfbo.LookAt(lamp.X, lamp.Y, lamp.Z, 0, 0, 0)\n\n		// ==Render== //\n		gbuf.Bind(&cam)\n\n		// normal rendering\n		gbuf.Render(&cam, skydome, assman.Textures[\"skydome\"], skydomeTransf)\n		// gbuf.Render(&cam, boxModel, assman.Textures[\"brown\"], boxRBTransf)\n		// gbuf.Render(&cam, boxModel, assman.Textures[\"brown\"], boxRBTransf2)\n		// gbuf.Render(&cam, ground, assman.Textures[\"square\"], groundTransf)\n\n		// render lights\n		gbuf.RenderLight(&cam, &lamp, shadowfbo.ShadowMat(), shadowfbo.ShadowMap(), 0.5, 0.9, 0.9)\n\n		// aggregate\n		gbuf.Aggregate()\n\n		tonemap.PreRender()\n		tonemap.Render(gbuf.AggregateFramebuffer.Out)\n		tonemap.PostRender()\n\n		// ==Maintenance== //\n		window.SwapBuffers()\n		glfw.PollEvents()\n	}\n}\n",
-			"file": "backup/main_dev.go",
-			"file_size": 5556,
-			"file_write_time": 131045256232065180,
-			"settings":
-			{
-				"buffer_size": 5556,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "vendor/param/param.go",
-			"settings":
-			{
-				"buffer_size": 92,
 				"line_ending": "Unix"
 			}
 		}
@@ -642,8 +663,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 420.0,
-		"last_filter": "Package Control: ",
+		"height": 400.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -699,7 +720,7 @@
 				"Convert Case: Lower Case"
 			]
 		],
-		"width": 497.0
+		"width": 442.0
 	},
 	"console":
 	{
@@ -731,9 +752,27 @@
 	],
 	"file_history":
 	[
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/phys/body.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/phys/space.go",
+		"/home/turtle/Projects/go/src/github.com/TheZeroSlave/chipmunk/examples/glfw3/bouncing_balls/bouncing_balls.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/LICENSE",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/assets/models/sphere.obj",
+		"/home/turtle/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/turtle/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/turtle/.config/sublime-text-3/Packages/User/goinstall.py",
+		"/home/turtle/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/turtle/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/turtle/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/backup/main_dev.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/phys/vect/vect.go",
+		"/home/turtle/Projects/go/src/github.com/TheZeroSlave/chipmunk/arbiter.go",
+		"/home/turtle/Projects/go/src/github.com/TheZeroSlave/chipmunk/space.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/phys/segmentShape.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/phys/HashValue.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/phys/BBTree.go",
+		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/phys/circleShape.go",
 		"/home/turtle/Projects/go/src/github.com/TheZeroSlave/chipmunk/vect/json.go",
 		"/home/turtle/Projects/go/src/github.com/TheZeroSlave/chipmunk/vect/vect.go",
-		"/home/turtle/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 		"/home/turtle/Projects/go/src/github.com/sg3des/fizzle-concept/lf/main.go",
 		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/env/physics.go",
 		"/home/turtle/Projects/go/src/github.com/luxengine/lux/models.go",
@@ -757,9 +796,6 @@
 		"/home/turtle/Projects/go/src/github.com/sg3des/lux-concept/vendor/lux-concept/main.go",
 		"/home/turtle/Projects/go/src/github.com/tbogdala/fizzle/examples/build.sh",
 		"/home/turtle/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
-		"/home/turtle/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
-		"/home/turtle/.config/sublime-text-3/Packages/User/goinstall.py",
-		"/home/turtle/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/home/turtle/Projects/go/src/local/conceal/testdata/music/video.mp4",
 		"/home/turtle/Projects/go/src/local/conceal/testdata/music/smeshriki.flv",
 		"/home/turtle/Projects/go/src/local/conceal/testdata/music/output.avi",
@@ -773,7 +809,6 @@
 		"/home/turtle/Projects/go/src/local/conceal/testdata/music/160318-143453.txt",
 		"/home/turtle/Projects/go/src/local/conceal/testdata/music/160318-143453.png",
 		"/home/turtle/Projects/go/src/local/conceal/testdata/pushkin.mp3",
-		"/home/turtle/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
 		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/getmodems",
 		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/pppDetectModem",
 		"/home/turtle/Projects/go/src/local/router/jffs/router/scripts/pppBusDial",
@@ -828,7 +863,6 @@
 		"/home/turtle/Projects/go/src/local/router/scripts/getactivevpn",
 		"/home/turtle/Projects/go/src/local/router/scripts/redsocks",
 		"/home/turtle/Projects/go/src/local/router/vendor/router/templates/ssh.go",
-		"/home/turtle/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/turtle/Projects/go/src/local/router/testdata/iptables.sh",
 		"/var/log/journal/2aa84cd086594c4581df256fdab8e402/user-1000.journal",
 		"/home/turtle/Projects/C/redsocks/main.c",
@@ -845,20 +879,7 @@
 		"/home/turtle/Projects/go/src/local/test/ref/ref.go",
 		"/run/media/turtle/6F0483335C20403F/Projects/go/autoroute.v2/autoroute.go",
 		"/run/media/turtle/6F0483335C20403F/Projects/go/autoroute.v2/jsonreq/jsonreq.go",
-		"/home/turtle/Projects/go/src/local/router/vendor/router/templates/vpn.go",
-		"/home/turtle/Projects/go/src/local/router/vendor/router/templates/index.go",
-		"/home/turtle/Projects/go/src/local/autoroute.v2/jsonreq/jsonreq.go",
-		"/home/turtle/Projects/go/src/local/autoroute.v2/autoroute.go",
-		"/home/turtle/Projects/go/src/local/autoroute.v2/example/controllers/controller_test.go",
-		"/home/turtle/Projects/go/src/local/autoroute.v2/example/controllers/urls.go",
-		"/home/turtle/Projects/go/src/local/autoroute.v2/example/controllers/index.go",
-		"/home/turtle/Projects/go/src/local/autoroute.v2/example/controllers/controller.go",
-		"/home/turtle/Projects/go/src/local/autoroute.v2/example/http.go",
-		"/home/turtle/Projects/go/src/local/router/vendor/router/controllers/server_init.go",
-		"/home/turtle/Projects/go/src/local/router/vendor/router/controllers/ssh_test.go",
-		"/home/turtle/Projects/go/src/local/router/vendor/router/models/ssh/sshchain.go",
-		"/home/turtle/Projects/go/src/local/router/vendor/router/models/device.m/device.m.go",
-		"/home/turtle/Projects/go/src/local/router/vendor/router/controllers/vpn_test.go"
+		"/home/turtle/Projects/go/src/local/router/vendor/router/templates/vpn.go"
 	],
 	"find":
 	{
@@ -876,6 +897,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"05",
+			"atan",
 			"newArbiter",
 			"],\n",
 			"vect.Float\\((.*?)\\)",
@@ -1001,9 +1024,7 @@
 			" border-style:.*?;",
 			"border-style:.*?;",
 			"border-radius: *[1-9]",
-			"\\n+",
-			"/\\*.*\\*/",
-			"\\/.*$"
+			"\\n+"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1085,28 +1106,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2522,
+						"buffer_size": 2799,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								719,
-								719
+								1533,
+								1533
 							]
 						],
 						"settings":
 						{
 							"gutter": true,
 							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1466180860.74,
+							"tabs_extra_last_activated": 1466537266.39,
 							"tabs_extra_last_activated_sheet_index": 0,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 536.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1118,23 +1139,61 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1255,
+						"buffer_size": 1758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								73
+								1544,
+								1544
 							]
 						],
 						"settings":
 						{
 							"gutter": true,
 							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1466180860.09,
+							"tabs_extra_last_activated": 1466360885.34,
 							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_moving":
+							[
+								2,
+								0
+							],
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 226.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "vendor/lux-concept/utils.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								536,
+								536
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1466360884.35,
+							"tabs_extra_last_activated_sheet_index": 2,
 							"tabs_extra_moving":
 							[
 								2,
@@ -1147,46 +1206,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "vendor/lux-concept/math.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 640,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								577,
-								577
-							]
-						],
-						"settings":
-						{
-							"gutter": true,
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1466180858.96,
-							"tabs_extra_last_activated_sheet_index": 2,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1195,22 +1221,193 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2183,
+						"buffer_size": 4344,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32,
-								32
+								3725,
+								3725
 							]
 						],
 						"settings":
 						{
 							"gutter": true,
 							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1465823241.79,
+							"tabs_extra_last_activated": 1466347157.22,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1193.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "vendor/phys/vect/vect.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								786,
+								786
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1466273949.72,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": ".git/info/exclude",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tabs_extra_last_activated": 1466273686.6,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "vendor/env/init.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1466273684.63,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "vendor/env/window.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1124,
+								1124
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1466358925.41,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_moving":
+							[
+								2,
+								1
+							],
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "vendor/env/cameras.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1466358455.61,
 							"tabs_extra_last_activated_sheet_index": 0,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": false
@@ -1223,27 +1420,125 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "vendor/env/init.go",
+					"buffer": 9,
+					"file": "/home/turtle/Projects/go/src/github.com/luxengine/lux/render/camera.go",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 268,
+						"buffer_size": 1432,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								245,
-								245
+								365,
+								365
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1465822337.84,
+							"tabs_extra_last_activated": 1466536278.98,
 							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "backup/160407/main_dev.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1246,
+								1246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1466355652.67,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "vendor/env/phys.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1466350935.28,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "vendor/env/lights.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								727,
+								727
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1466349125.98,
+							"tabs_extra_last_activated_sheet_index": 4,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": false
 						},
@@ -1253,53 +1548,120 @@
 					},
 					"stack_index": 9,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 5,
-					"file": "vendor/env/window.go",
+					"buffer": 13,
+					"file": "vendor/param/param.go",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2083,
+						"buffer_size": 680,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1202,
-								1202
+								305,
+								305
 							]
 						],
 						"settings":
 						{
-							"gutter": true,
 							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1465822280.2,
-							"tabs_extra_last_activated_sheet_index": 2,
-							"tabs_extra_moving":
-							[
-								2,
-								1
-							],
+							"tabs_extra_last_activated": 1466536718.51,
+							"tabs_extra_last_activated_sheet_index": 0,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 14,
+					"file": "assets/models/square.mtl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tabs_extra_last_activated": 1466260142.33,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "assets/models/square.obj",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tabs_extra_last_activated": 1466260149.8,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
 					"file": "Makefile",
 					"semi_transient": false,
 					"settings":
@@ -1318,258 +1680,17 @@
 						"settings":
 						{
 							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
-							"tabs_extra_last_activated": 1465820848.09,
-							"tabs_extra_last_activated_sheet_index": 0,
-							"tabs_extra_spawned": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "vendor/env/cameras.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								286,
-								286
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1465820881.56,
-							"tabs_extra_last_activated_sheet_index": 1,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "vendor/env/phys.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								165,
-								165
-							]
-						],
-						"settings":
-						{
-							"gutter": true,
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1465822880.61,
+							"tabs_extra_last_activated": 1466347191.27,
 							"tabs_extra_last_activated_sheet_index": 2,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/home/turtle/Projects/go/src/github.com/TheZeroSlave/chipmunk/arbiter.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8881,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1227,
-								1227
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1465822884.43,
-							"tabs_extra_last_activated_sheet_index": 3,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/home/turtle/Projects/go/src/github.com/TheZeroSlave/chipmunk/space.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 24656,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15616,
-								15616
-							]
-						],
-						"settings":
-						{
-							"gutter": true,
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1465823434.94,
-							"tabs_extra_last_activated_sheet_index": 4,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5280.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "vendor/env/lights.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 903,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								241,
-								241
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1465820846.43,
-							"tabs_extra_last_activated_sheet_index": 3,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 12,
-					"file": "backup/main_dev.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5556,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12,
-								12
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1466180855.4,
-							"tabs_extra_last_activated_sheet_index": 0,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "vendor/param/param.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 92,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								35
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"tabs_extra_last_activated": 1466180856.51,
-							"tabs_extra_last_activated_sheet_index": 1,
 							"tabs_extra_spawned": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 10,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -1625,14 +1746,14 @@
 		"cols":
 		[
 			0.0,
-			0.353713283722,
-			0.708360128617,
+			0.346965645395,
+			0.688409003403,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.952919020716,
+			0.708410902282,
 			1.0
 		]
 	},
@@ -1659,7 +1780,7 @@
 	},
 	"output.exec":
 	{
-		"height": 0.0
+		"height": 15.0
 	},
 	"output.find_results":
 	{

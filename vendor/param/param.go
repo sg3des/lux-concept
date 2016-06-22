@@ -1,5 +1,7 @@
 package param
 
+import "time"
+
 type Player struct {
 	Name   string
 	Object Object
@@ -10,12 +12,15 @@ type Player struct {
 }
 
 type Weapon struct {
+	NextShot time.Time
+	Shoot    bool
+
 	BulletObject Object
 
 	X float32
 
 	Damage       float32
-	AttackRate   float32
+	AttackRate   time.Duration
 	BulletSpeed  float32
 	BulletRotate float32
 	Lifetime     float32
